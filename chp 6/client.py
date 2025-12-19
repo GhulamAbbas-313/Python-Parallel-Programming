@@ -1,6 +1,6 @@
 import socket
 
-s = socket.socket(socket.AF_INET, socket.AF_INET, socket.active name)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname()
 port = 9999
 
